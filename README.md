@@ -1,6 +1,6 @@
 # Frontend <img src="https://www.moovin.com.br/assets/images/svg/logo2.svg" width="50">
 
-### Desafio
+### Desafio Moovin
 
 Desenvolver um painel integrado com uma API, seguindo o modelo de layout proposto.
 
@@ -10,11 +10,11 @@ Faça o fork do repositório, realize os seus commits e ao final envie o link do
 
 Para iniciar você deve instalar as dependências:
 ```zsh
-  foo@bar:~$ npm install
+  foo@bar:~$ yarn
 ```
 Em seguida você deve iniciar um webserver local:
 ```zsh
-  foo@bar:~$ npm start
+  foo@bar:~$ yarn start
 ```
 
 ### Layout
