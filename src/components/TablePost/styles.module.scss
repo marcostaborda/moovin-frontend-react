@@ -1,0 +1,87 @@
+.sectionContainer {
+  border: 1px solid var(--gray-300);
+  border-radius: 3px;
+}
+
+.tableContainer {
+  border-collapse: collapse;
+  width: 100%;
+  padding: 0 1.8125rem;
+  border-radius: 3px;
+  border: 1px solid var(--gray-300);
+
+  thead {
+    tr {
+      background-color: var(--gray-100);
+
+      th {
+        font-size: 0.9375rem;
+        font-weight: bold;
+        text-align: left;
+        padding: 0.875rem 1.8125rem;
+
+        &:first-child {
+          width: 33%;
+        }
+      }
+    }
+  }
+
+  tbody {
+    tr {
+      border-bottom: 2px solid var(--gray-300);
+
+      td {
+        font-size: 0.875rem;
+        font-weight: 400;
+        text-align: left;
+        padding: 1.25rem 1.8125rem;
+
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 1px;
+
+        &:first-child {
+          padding-right: 10%;
+        }
+      }
+    }
+  }
+}
+
+.footerTable {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.625rem 1.25rem;
+
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: var(--gray-750);
+
+  .buttonsPagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    button {
+      background: transparent;
+      border: 0;
+      width: 23px;
+      height: 23px;
+      color: var(--gray-850);
+      font-size: 0.9375rem;
+      font-weight: 800;
+
+      &.isActive {
+        border: 2px solid var(--gray-400);
+        border-radius: 3px;
+        cursor: not-allowed;
+      }
+
+      &.notClicked {
+        cursor: not-allowed;
+      }
+    }
+  }
+}
